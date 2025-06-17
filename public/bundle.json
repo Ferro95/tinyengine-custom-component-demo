@@ -1,0 +1,187 @@
+{
+  "data": {
+    "framework": "Vue",
+    "materials": {
+      "components": [
+        {
+          "name": {
+            "zh_CN": "卡片测试组件",
+            "en_US": "Card Test Component"
+          },
+          "component": "lsc-test",
+          "description": {
+            "zh_CN": "这是一个测试组件，用于展示卡片的功能。",
+            "en_US": "This is a test component used to demonstrate card functionality."
+          },
+          "docUrl": "",
+          "screenshot": "",
+          "npm": {
+            "package": "",
+            "exportName": "LscTest",
+            "version": "1.0.0",
+            "destructuring": true
+          },
+          "group": "component",
+          "category": "general",
+          "schema": {
+            "properties": [
+              {
+                "name": "0",
+                "label": {
+                  "zh_CN": "基础属性"
+                },
+                "content": [
+                  {
+                    "property": "coverImage",
+                    "label": {
+                      "text": {
+                        "zh_CN": "封面图片",
+                        "en_US": "Cover Image"
+                      }
+                    },
+                    "labelPosition": "top",
+                    "description": {
+                      "zh_CN": "卡片的封面图片地址",
+                      "en_US": "The URL of the card's cover image"
+                    },
+                    "type": "string",
+                    "default": "",
+                    "required": false,
+                    "bindState": true,
+                    "readOnly": false,
+                    "widget": {
+                      "component": "MetaInput",
+                      "props": {}
+                    }
+                  },
+                  {
+                    "property": "title",
+                    "label": {
+                      "text": {
+                        "zh_CN": "卡片标题",
+                        "en_US": "Card Title"
+                      }
+                    },
+                    "labelPosition": "top",
+                    "description": {
+                      "zh_CN": "卡片的标题",
+                      "en_US": "The title of the card"
+                    },
+                    "type": "string",
+                    "default": "",
+                    "required": false,
+                    "bindState": true,
+                    "readOnly": false,
+                    "widget": {
+                      "component": "MetaInput",
+                      "props": {}
+                    }
+                  },
+                  {
+                    "property": "description",
+                    "label": {
+                      "text": {
+                        "zh_CN": "卡片描述",
+                        "en_US": "Card Description"
+                      }
+                    },
+                    "labelPosition": "top",
+                    "description": {
+                      "zh_CN": "卡片的描述信息",
+                      "en_US": "The description of the card"
+                    },
+                    "type": "string",
+                    "default": "",
+                    "required": false,
+                    "bindState": true,
+                    "readOnly": false,
+                    "widget": {
+                      "component": "MetaInput",
+                      "props": {}
+                    }
+                  },
+                  {
+                    "property": "showButton",
+                    "label": {
+                      "text": {
+                        "zh_CN": "是否显示按钮",
+                        "en_US": "Show Button"
+                      }
+                    },
+                    "labelPosition": "left",
+                    "description": {
+                      "zh_CN": "是否显示按钮",
+                      "en_US": "Whether to show the button"
+                    },
+                    "type": "boolean",
+                    "default": true,
+                    "required": false,
+                    "bindState": true,
+                    "readOnly": false,
+                    "widget": {
+                      "component": "MetaSwitch",
+                      "props": {}
+                    }
+                  },
+                  {
+                    "property": "btnText",
+                    "label": {
+                      "text": {
+                        "zh_CN": "按钮文本",
+                        "en_US": "Button Text"
+                      }
+                    },
+                    "labelPosition": "left",
+                    "description": {
+                      "zh_CN": "按钮文本",
+                      "en_US": "Text for the button"
+                    },
+                    "type": "string",
+                    "default": "",
+                    "required": false,
+                    "bindState": true,
+                    "readOnly": false,
+                    "widget": {
+                      "component": "MetaInput",
+                      "props": {}
+                    }
+                  }
+                ]
+              }
+            ],
+            "slots": {},
+            "events": {
+              "onBtnClick": {
+                "label": {
+                  "zh_CN": "按钮点击事件",
+                  "en_US": "Button Click Event"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "blocks": [],
+      "snippets": [
+        {
+          "group": "自定义组件",
+          "label": {
+            "zh_CN": "自定义组件"
+          },
+          "children": [
+            {
+              "name": {
+                "zh_CN": "卡片测试组件",
+                "en_US": "Card Test Component"
+              },
+              "icon": "card",
+              "screenshot": "",
+              "snippetName": "LscTest",
+              "schema": {}
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
