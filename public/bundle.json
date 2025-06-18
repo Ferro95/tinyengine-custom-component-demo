@@ -8,13 +8,11 @@
             "zh_CN": "卡片测试组件",
             "en_US": "Card Test Component"
           },
-          "component": "lsc-test",
-          "description": {
-            "zh_CN": "这是一个测试组件，用于展示卡片的功能。",
-            "en_US": "This is a test component used to demonstrate card functionality."
-          },
+          "component": "LscTest",
+          "description": "这是一个测试组件，用于展示卡片的功能。",
           "docUrl": "",
           "screenshot": "",
+          "version": "1.0.0",
           "npm": {
             "package": "",
             "exportName": "LscTest",
